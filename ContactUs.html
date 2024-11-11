@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMBC Department of Information Systems - Contact Us</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #333; color: #fff; }
+        header { background-color: #FFC107; padding: 10px; text-align: center; color: black; font-weight: bold; }
+        header img { vertical-align: middle; width: 50px; }
+        .container { display: flex; justify-content: space-around; padding: 20px; }
+        .menu, .content { background-color: #222; padding: 20px; border-radius: 10px; }
+        .menu { width: 20%; }
+        .menu a { color: #fff; text-decoration: none; display: block; margin: 15px 0; font-weight: bold; }
+        .content { width: 70%; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; }
+        .form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #fff; border-radius: 5px; background-color: #333; color: #fff; }
+    </style>
+</head>
+<body>
+
+<header>
+    
+    UMBC DEPARTMENT OF INFORMATION SYSTEMS
+</header>
+
+<div class="container">
+    <div class="menu">
+        <a href="IS436Lab4/index.html">Home</a>
+        <a href="IS436Lab4/UndergraduatePrograms.html">Undergraduate Programs</a>
+        <a href="IS436Lab4/ContactUs.html">Contact Us</a>
+    </div>
+
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Thank you for visiting the UMBC Department of Information Systems! If you have any questions or would like to leave us a message, please fill out the form below:</p>
+        
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="student-id">Student ID</label>
+                <input type="text" id="student-id" name="student-id">
+            </div>
+            <div class="form-group">
+                <label for="email">UMBC Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" maxlength="250"></textarea>
+                <small>0/250</small>
+            </div>
+            <button type="submit" style="padding: 10px 20px; background-color: #FFC107; border: none; color: black; font-weight: bold;">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
